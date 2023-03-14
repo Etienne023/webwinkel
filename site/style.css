@@ -1,17 +1,32 @@
+html {
+
+  width: 100%;
+}
+
 header {
- display: flex;
+  display: flex;
   background-color: #2a2a2a;
 }
-body{
+
+body {
   background-color: rgb(18, 18, 18);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+    position:relative; 
+    padding-bottom:500px;
 }
-.logo{
+
+
+.logo {
   padding-left: 1%;
 
 }
 
 main {
-  height: 500px;
+  flex: 1 0 auto;
+  
 }
 
 .container {
@@ -19,10 +34,55 @@ main {
   width: 80%;
   margin: 0 auto;
 }
-.container1{
- width: 90%;
+
+.container1 {
+  width: 90%;
+  font-family: sans-serif;
+  margin-left: 5%;
+  line-height: 1.5em;
 }
-.resources{
+
+footer {
+  background-color: #202020;
+  margin: 0 auto;
+  color: #e7e7e7;
+  position: absolute; 
+  left: 0 ; right: 0; bottom: 0; 
+  height: 500px; 
+
+
+
+
+}
+
+.footer1 {
+  color: #e7e7e7;
+  font-family: sans-serif;
+  margin-left: 5%;
+  line-height: 1.5em;
+}
+
+.footer2 {
+  padding-top: 2%;
+  color: #e7e7e7;
+  font-family: sans-serif;
+  margin-left: 5%;
+  width: 50%;
+  line-height: 1.5em;
+}
+
+.streepje {
+  border-color: #333;
+  border-style: solid none none;
+  padding-left: 4%;
+}
+
+h3 {
+  color: #9b9696;
+  opacity: .4;
+}
+
+.resources {
   font-size: 14.4px;
   font-family: sans-serif;
   color: #CCCCCC;
@@ -73,7 +133,8 @@ main {
   font-weight: 500;
   text-align: left;
 }
-.prijs{
+
+.prijs {
 
   font-size: 14px;
   color: rgb(245, 245, 245);
@@ -82,22 +143,13 @@ main {
   letter-spacing: 0.2px;
 }
 
-
-
-
-
-footer {
-  background-color: #333;
-  height: 250px;
-  margin: 0 auto;
-}
-
 #produten {
   height: 250px;
   width: 185px;
 
 }
-#producten img {
+
+.game img {
   height: 265px;
 }
 
@@ -108,7 +160,7 @@ ul {
   overflow: hidden;
 }
 
-nav  li {
+nav li {
   float: left;
 }
 
