@@ -1,6 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 html {
+  height: 100%;
 
-  width: 100%;
 }
 
 header {
@@ -10,12 +14,9 @@ header {
 
 body {
   background-color: rgb(18, 18, 18);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  height: 100%; 
-    position:relative; 
-    padding-bottom:500px;
+  position: relative;
+  height: 100%;
+  
 }
 
 
@@ -24,13 +25,16 @@ body {
 
 }
 
-main {
-  flex: 1 0 auto;
-  
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+
+
 }
 
 .container {
-  height: 600px;
   width: 80%;
   margin: 0 auto;
 }
@@ -46,13 +50,9 @@ footer {
   background-color: #202020;
   margin: 0 auto;
   color: #e7e7e7;
-  position: absolute; 
-  left: 0 ; right: 0; bottom: 0; 
-  height: 500px; 
-
-
-
-
+  position:absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer1 {
@@ -98,15 +98,14 @@ h3 {
   font-weight: 400;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
 
 }
 
 .game {
   padding-left: 20px;
-  height: 400px;
   margin: 4px;
-  padding-bottom: 40px;
+  max-width: 240px;
 
 }
 
