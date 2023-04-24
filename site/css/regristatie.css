@@ -1,6 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: arial, sans-serif;
     background-color: black;
+}
+header {
+    display: flex;
+    background-color: #2a2a2a;
 }
 
 main {
@@ -10,12 +18,12 @@ main {
 div.container {
     background: aliceblue;
     width: 80%;
-    margin: 210px auto 0 auto;
+    margin: 180px auto 0 auto;
     border-radius: 20px;
 }
 
 form {
-    background: aquamarine;
+    background: #171b1e;
     padding: 20px;
     border-radius: 20px;
 }
@@ -64,4 +72,25 @@ button:hover {
     border: 1px solid black;
     cursor: pointer;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  header li a:hover {
+    text-decoration: underline;
+  }
 

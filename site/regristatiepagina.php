@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="css/regristatie.css">
 
+<?php include("nav.php") ?>
+
 <main>
     <div class="container">
         <form action="verwerk.php" method="get">
