@@ -1,25 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: arial, sans-serif;
-    background-color: black;
+    background-color: #1c1c1f;
+    ;
 }
+
 header {
     display: flex;
     background-color: #2a2a2a;
 }
 
 main {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-div.container {
-    background: aliceblue;
-    width: 80%;
-    margin: 180px auto 0 auto;
-    border-radius: 20px;
+.container {
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 form {
@@ -72,25 +78,33 @@ button:hover {
     border: 1px solid black;
     cursor: pointer;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  nav li {
+}
+
+nav li {
     float: left;
-  }
-  
-  header li a {
+}
+
+header li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-  }
-  
-  header li a:hover {
-    text-decoration: underline;
-  }
+    font-family: sans-serif;
+}
 
+header li a:hover {
+    text-decoration: underline;
+}
+
+.regrestatie {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
