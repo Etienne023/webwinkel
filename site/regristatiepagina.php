@@ -8,6 +8,7 @@
             <ul>
                 <li>
                     <label for="txtVoornaam">Voornaam</label><br>
+      
                     <input type="text" id="txtVoornaam" name="txtVoornaam" placeholder="Voornaam" autofocus>
                 </li>
                 <li>

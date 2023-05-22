@@ -2,7 +2,7 @@
 <?php include("nav.php") ?>
 
 <div class="container">
-    <h1>nieuw game</h1>
+    <h1>nieuwe game</h1>
     <form action="producttoevoegen.php" method="post">
 
     <div class="form-groep">
